@@ -1,0 +1,4 @@
+To do list :
+
+- Chopper le fd
+- Chopper la première ligne

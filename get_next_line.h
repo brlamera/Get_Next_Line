@@ -12,19 +12,8 @@
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-
-# include <unistd.h>
-# include <stdlib.h>
-# include <sys/types.h>
-# include <sys/stat.h>
-# include <fcntl.h>
-# define BUF_SIZE 29000
-
-typedef struct	s_list
-{
-	char			*str;
-	struct s_list	next;
-}				t_list;
+# define BUF_SIZE 42
+# include "libft/libft.h"
 
 int		get_next_line(const int fd, char **line);
 
